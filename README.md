@@ -6,6 +6,5 @@
 * 小程序修改一下 hotDetail页面里的js中的后台请求API就ok。
 
 ## 运行效果
-https://github.com/ChuanV/FindJoyAH/blob/master/1.jpg
-![](https://github.com/ChuanV/FindJoyAH/blob/master/1.jpg)
-![](https://github.com/ChuanV/FindJoyAH/blob/master/2.jpg)
+![主页演示图](https://github.com/ChuanV/FindJoyAH/blob/master/1.jpg)
+![我的演示图](https://github.com/ChuanV/FindJoyAH/blob/master/2.jpg)
