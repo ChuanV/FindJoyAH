@@ -1,0 +1,11 @@
+<!--components/alert.wxml-->
+<view class="wx-alert" hidden="{{flag}}">
+  <view class='alert-container'>
+    <view class="wx-alert-title">{{title}}</view>
+    <view class="wx-alert-con">{{content}}</view>
+    <view class="wx-alert-btn">
+      <text class="btn-no" bindtap='_error'>{{btn_no}}</text>
+      <text class="btn-ok" bindtap='_success'>{{btn_ok}}</text>
+    </view>
+  </view>
+</view>

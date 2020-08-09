@@ -1,0 +1,16 @@
+<!--pages/history/history.wxml-->
+<view class="container">
+	<view class="hasbhistory" wx:if="{{!hasbhistory}}">你还没有浏览历史记录~~~</view>
+	<view class="section" wx:for="{{list}}" wx:key="index">
+		<navigator url="/pages/show/show?url={{item.url}}&title={{item.title}}" open-type="redirect">
+			<view class="item-detail">
+				<text class="ellipsis">{{index + 1}}、{{item.title}}</text>
+				<text class="time">{{item.time}}</text>
+			</view>
+		</navigator>
+	</view>
+	<loading hidden="{{loadingHidden}}">
+		加载中...
+	</loading>
+	<text class="bottom" wx:if="{{isAll}}">---我是有底线---</text>
+</view>

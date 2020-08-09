@@ -1,0 +1,6 @@
+<!--pages/contact/contact.wxml-->
+<view class="container">
+<!-- <image src="{{src}}"></image> -->
+<image src="https://chuan-contact.oss-cn-shenzhen.aliyuncs.com/gzh.jpg" wx:if="{{state == 'gzh'}}"></image>
+<image src="https://chuan-contact.oss-cn-shenzhen.aliyuncs.com/me.jpg" wx:if="{{state == 'me'}}"></image>
+</view>

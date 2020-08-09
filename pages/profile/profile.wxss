@@ -1,0 +1,86 @@
+/* pages/profile/profile.wxss */
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400rpx;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596899645490&di=dd9fda396076d1b85462f591b5861d8f&imgtype=0&src=http%3A%2F%2Fp2.ssl.cdn.btime.com%2Ft0164073a5b7ab26f6b.jpg%3Fsize%3D640x448) no-repeat center center/cover;
+}
+.icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.username{
+  color: #fff;
+}
+.item{
+  font-size: 1rem;
+  display: flex;
+  height: 90rpx;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 5rpx;
+  padding-left: 15rpx;
+  box-sizing: border-box;
+  padding-right: 10rpx;
+  border-top: 1px solid #dad5d5;
+}
+.vip-0{
+  color: #dad5d5;
+}
+.vip{
+  display: flex;
+  align-items: center;
+}
+.vip-1,.vip-2{
+  color: #1296db;
+}
+.vip-5,.vip-6{
+  color: #d81e06;
+}
+.vip-3,.vip-4{
+  color: #f4ea2a;
+}
+.vip image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.item image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.item:last-of-type{
+  border-bottom: 1px solid #dad5d5;
+}
+.some-info{
+  display: flex;
+  width: 100%;
+  height: 150rpx;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  border-bottom:  1px solid #dad5d5;
+  border-top:1px solid #dad5d5;
+}
+.info-item{
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px solid #dad5d5;
+}
+.info-title{
+  font-size: .8rem;
+  color: rgb(116, 110, 103);
+}
+.info-num{
+  color: #dac03e;
+  font-size: .8rem;
+}

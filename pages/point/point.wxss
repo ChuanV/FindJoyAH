@@ -1,0 +1,46 @@
+/* pages/point/point.wxss */
+.point-num{
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  padding-left: .5rem;
+}
+.point-num text{
+  color: #dac03e;
+}
+.point-num image{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: .2rem;
+}
+.prize{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.item{
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid #dad5d5;
+  border-top:1px solid #dad5d5;
+  border-bottom:  1px solid #dad5d5;
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 10rpx;
+}
+.item text {
+  font-size: .8rem;
+  color: gold;
+  margin-bottom: 10rpx;
+}
+.item image{
+  height: 4rem;
+}
+.item:nth-of-type(n+3){
+  border-top: none;
+}

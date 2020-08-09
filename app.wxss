@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+  background-color: #f7f8fa;
+} 
+.ellipsis{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

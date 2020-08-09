@@ -1,0 +1,49 @@
+<!--pages/point/point.wxml-->
+<view class="container">
+	<view class="point-num">
+		<image src="../../assets/icon/公告.svg"></image>
+		你有<text>{{point}}</text>积分!
+	</view>
+	<view class="prize">
+		<view class="item">
+			<image src="../../assets/icon/VIP.svg"></image>
+      <!-- <text>100积分</text> -->
+			<text>普通会员(100积分)</text>
+    <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="100">兑换</button>
+		</view>
+		<view class="item">
+			<image src="../../assets/icon/VIP-3.svg"></image>
+			<text>青铜会员(200积分)</text>
+       <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="200">兑换</button>
+		</view>
+		<view class="item">
+			<image src="../../assets/icon/VIP-2.svg"></image>
+			<text>白银会员(500积分)</text>
+			 <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="500">兑换</button>
+		</view>
+    <view class="item">
+			<image src="../../assets/icon/VIP-4.svg"></image>
+			<text>黄金会员(1000积分)</text>
+			 <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="1000">兑换</button>
+		</view>
+      <view class="item">
+			<image src="../../assets/icon/VIP-5.svg"></image>
+			<text>铂金会员(2000积分)</text>
+			 <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="2000">兑换</button>
+		</view>
+    <view class="item">
+			<image src="../../assets/icon/VIP-6.svg"></image>
+			<text>钻石会员(5000积分)</text>
+			 <button class="mini-btn" type="primary" size="mini" bindtap="exchange" data-point="5000">兑换</button>
+		</view>
+	</view>
+		<alert 
+	id="failAlert"
+	title='温馨提示' 
+	content='即将消耗{{needPoint}}积分兑换该会员！' 
+	btn_no='取消' 
+	btn_ok='确认'
+	bind:error="p_error"  
+	bind:success="p_success"
+	></alert>
+</view>

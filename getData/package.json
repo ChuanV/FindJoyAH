@@ -1,0 +1,18 @@
+{
+  "name": "getdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}

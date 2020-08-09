@@ -1,0 +1,118 @@
+<view >
+	<view class="container">
+		<view class="section">
+			<!-- 综合区 -->
+			<text class="title">综合</text>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=zhihu&title=知乎热榜&src=https://file.ipadown.com/tophub/assets/images/media/zhihu.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/zhihu.com.png_50x50.png"></image>
+					<text>知乎 热榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=wangyi&title=网易新闻热榜&src=https://file.ipadown.com/tophub/assets/images/media/163.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/163.com.png_50x50.png"></image>
+					<text>网易新闻 热榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=lishipin&title=梨视频排行榜&src=https://file.ipadown.com/tophub/assets/images/media/pearvideo.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/pearvideo.com.png_50x50.png"></image>
+					<text>梨视频 排行榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=toutiao&title=今日头条热文榜&src=https://file.ipadown.com/tophub/assets/images/media/toutiao.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/toutiao.com.png_50x50.png"></image>
+					<text>今日头条 热文榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<!-- <navigator class="item" url="/pages/hotDetail/hotDetail?name=xinlang&title=新浪排行榜&src=https://file.ipadown.com/tophub/assets/images/media/sina.com.cn.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/sina.com.cn.png_50x50.png"></image>
+					<text>新浪 排行榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator> -->
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=jianshu&title=简书热文榜&src=https://file.ipadown.com/tophub/assets/images/media/jianshu.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/jianshu.com.png_50x50.png"></image>
+					<text>简书  热文榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+		</view>
+		<!-- 娱乐区 -->
+		<view class="section">
+			<text class="title">娱乐</text>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=bilibili&title=哔哩哔哩全站日榜&src=https://file.ipadown.com/tophub/assets/images/media/bilibili.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/bilibili.com.png_50x50.png"></image>
+					<text>哔哩哔哩 全站日榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=douyin&title=抖音视频榜&src=https://file.ipadown.com/tophub/assets/images/media/iesdouyin.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/iesdouyin.com.png_50x50.png"></image>
+					<text>抖音 视频榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=jiandan&title=煎蛋热文榜&src=https://file.ipadown.com/tophub/assets/images/media/jandan.net.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/jandan.net.png_50x50.png"></image>
+					<text>煎蛋 热文榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=douban&title=豆瓣电影榜&src=https://file.ipadown.com/tophub/assets/images/media/movie.douban.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/movie.douban.com.png_50x50.png"></image>
+					<text>豆瓣 电影榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+		</view>
+		<!-- 社区区域 -->
+		<view class="section">
+			<text class="title">社区</text>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=wuaipojie&title=吾爱破解今日热帖&src=https://file.ipadown.com/tophub/assets/images/media/52pojie.cn.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/52pojie.cn.png_50x50.png"></image>
+					<text>吾爱破解 今日热帖</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=huxiu&title=虎嗅热文榜&src=https://file.ipadown.com/tophub/assets/images/media/huxiu.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/huxiu.com.png_50x50.png"></image>
+					<text>虎嗅 热文榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=tianya&title=天涯社区热帖榜&src=https://file.ipadown.com/tophub/assets/images/media/bbs.tianya.cn.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/bbs.tianya.cn.png_50x50.png"></image>
+					<text>天涯社区 热帖榜</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+			<navigator class="item" url="/pages/hotDetail/hotDetail?name=v2ex&title=V2EX热帖&src=https://file.ipadown.com/tophub/assets/images/media/v2ex.com.png_50x50.png">
+				<view class="item-detail">
+					<image src="https://file.ipadown.com/tophub/assets/images/media/v2ex.com.png_50x50.png"></image>
+					<text>V2EX 热帖</text>
+				</view>
+				<image src="../../assets/icon/next.png"></image>
+			</navigator>
+		</view>
+		<view class="bottom">---我是有底线---</view>
+	</view>
+</view>

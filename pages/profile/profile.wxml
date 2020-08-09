@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="bg">
+		<view class="icon">
+			<!-- 用户头像 -->
+			<open-data type="userAvatarUrl"></open-data>
+		</view>
+		<!-- 用户名 -->
+		<open-data class="username" type="userNickName"></open-data>
+		<view class="vip-0" wx:if="{{vip == 0}}">注册会员</view>
+		<view class="vip-1 vip" wx:if="{{vip == 100}}">普通会员<image src="../../assets/vip/vip-three.svg"></image></view>
+		<view class="vip-2 vip" wx:if="{{vip == 200}}">青铜会员<image src="../../assets/vip/vip-three.svg"></image></view>
+		<view class="vip-3 vip" wx:if="{{vip == 500}}">白银会员<image src="../../assets/vip/vip-two.svg"></image></view>
+		<view class="vip-4 vip" wx:if="{{vip == 1000}}">黄金会员<image src="../../assets/vip/vip-two.svg"></image></view>
+		<view class="vip-5 vip" wx:if="{{vip == 2000}}">铂金会员<image src="../../assets/vip/vip-one.svg"></image></view>
+		<view class="vip-6 vip" wx:if="{{vip == 5000}}">钻石会员<image src="../../assets/vip/vip-one.svg"></image></view>
+
+	</view>
+  <view class="some-info">
+  <view class="info-item">
+	<text class="info-title">浏览总条数</text>
+	<text class="info-num">	{{num}} 条</text>
+	</view>
+  <view class="info-item">
+	<text class="info-title">浏览总时间</text>
+		<text class="info-num" >{{time}}</text>
+	</view>
+  <view class="info-item">
+	<text class="info-title">获得积分</text>
+		<text class="info-num">{{point}}</text>
+	</view>
+  </view>
+	<view class="section">
+		<navigator class="item" url="/pages/point/point">
+			积分兑换
+			<image src="../../assets/icon/next.png"></image>
+		</navigator>
+		<navigator class="item" url="/pages/history/history">
+			浏览历史
+			<image src="../../assets/icon/next.png"></image>
+		</navigator>
+		<navigator class="item" url="/pages/contact/contact?state=gzh">
+			查题公众号
+			<image src="../../assets/icon/next.png"></image>
+		</navigator>
+		<navigator class="item" url="/pages/contact/contact?state=me">
+			联系我们
+			<image src="../../assets/icon/next.png"></image>
+		</navigator>
+	</view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/hot/hot",
+    "pages/profile/profile",
+    "pages/point/point",
+    "pages/history/history",
+    "pages/index/index",
+    "pages/hotDetail/hotDetail",
+    "pages/show/show",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "发现热点",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#e0620d",
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热榜",
+        "iconPath": "assets/icon/hot.png",
+        "selectedIconPath": "assets/icon/hot_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/icon/user.png",
+        "selectedIconPath": "assets/icon/user_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
